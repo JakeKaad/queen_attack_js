@@ -24,15 +24,6 @@ var equalArray = function(arr1, arr2) {
 
 $(document).ready(function() {
   $("form#queen-attack").submit(function(event){
-
-    // var parseInput = function(input){
-    //   parseInt($("input#" + input).val());
-    // });
-    //
-    // var x1 = parseInput("x1")
-    // var y1 = parseInput("y1")
-    // var x2 = parseInput("x2")
-    // var y2 = parseInput("y2")
     var x1 = parseInt($("input#x1").val());
     var y1 = parseInt($("input#y1").val());
     var x2 = parseInt($("input#x2").val());
